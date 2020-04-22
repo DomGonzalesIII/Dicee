@@ -1,10 +1,38 @@
 /*csslint empty-rules: false, ids: false, qualified-headings: false, known-properties: false*/
 /************************* TAG SELECTORS *************************/
+body {
+  background-color: #333333;
+  text-align: center;
+}
 
+div {
+  color: #7fcd91;
+}
 
+footer {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 5%;
+}
 
+h1 {
+  font-family: 'Bangers', cursive;
+  font-size: 8rem;
+  letter-spacing: 5px;
+  margin: 30px;
+  text-shadow: 5px 0 #232931;
+}
 /************************ CLASS SELECTORS ************************/
+.container {
+  margin: auto;
+  width: 70%;
+}
 
-
+.dice {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  width: 250px;
+}
 
 /************************* ID SELECTORS *************************/
