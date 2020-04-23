@@ -5,6 +5,22 @@ body {
   text-align: center;
 }
 
+button {
+  background-color:#7fcd91;
+  border: none;
+  border-radius:4px;
+  box-shadow: 0px 5px 7px -3px #202020;
+  color: #202020;
+  height: 30px;
+  margin-top: 30px;
+  width: 90px;
+}
+
+button:hover {
+  font-family: 'Montserrat', sans-serif;
+	opacity: 75%;
+}
+
 div {
   color: #7fcd91;
 }
@@ -34,5 +50,3 @@ h1 {
   font-size: 2rem;
   width: 250px;
 }
-
-/************************* ID SELECTORS *************************/
